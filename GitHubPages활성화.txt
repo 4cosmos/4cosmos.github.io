@@ -1,3 +1,14 @@
-레포이름은 4aix.github.io
-레포 → Settings → Pages
-→ Branch: main 선택 → Save하면
+✅ 레포 이름: 4aix.github.io
+✅ index.html 내용: meta refresh로 github.com/4aix 리다이렉트
+✅ Settings → Pages → Branch: main 저장
+✅ hosting.kr DNS → A 레코드 4개 추가
+유형: A  /  호스트: @  /  값: 185.199.108.153
+유형: A  /  호스트: @  /  값: 185.199.109.153
+유형: A  /  호스트: @  /  값: 185.199.110.153
+유형: A  /  호스트: @  /  값: 185.199.111.153
+✅ hosting.kr DNS → CNAME (www) 추가
+유형: CNAME  /  호스트: www  /  값: 4aix.github.io
+✅ Settings → Pages → Custom domain → 구매한 도메인 입력
+4aix.github.io 레포 → Settings → Pages
+→ Custom domain → 구매한 도메인 입력(http://space4u.kr/) → Save
+→ Enforce HTTPS 체크
